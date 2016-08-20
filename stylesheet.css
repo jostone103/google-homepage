@@ -1,3 +1,9 @@
+#header {
+	position: relative;
+	float: right;
+	margin-top: 13px;
+}
+
 a {
 	font-family: arial, sans-serif;
 	font-size: 13px;
@@ -6,8 +12,29 @@ a {
 	line-height: 24px;
 	text-align: right
 	opacity: .75;
+	padding-left: 7px;
+	padding-right: 7px;
 }
 
 a:hover {
 	text-decoration: underline;
+	text-decoration-color: black;
+}
+
+#apps {
+	width: 22px;
+	height: 22px;
+	vertical-align: middle;
+}
+
+#signin {
+	width: 69.3438px;
+	height:30px;
+	margin-right: 20px;
+	margin-left: 2px;
+	background-color: #4285f4;
+	color: #fff;
+	font-weight: bold;
+	padding: 8px 13px 8px 13px;
+	border-radius: 2px;
 }
