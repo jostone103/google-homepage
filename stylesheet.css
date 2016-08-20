@@ -1,0 +1,13 @@
+a {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: #000;
+	text-decoration: none;
+	line-height: 24px;
+	text-align: right
+	opacity: .75;
+}
+
+a:hover {
+	text-decoration: underline;
+}
