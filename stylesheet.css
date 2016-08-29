@@ -1,7 +1,16 @@
+#container {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	min-height: 100%;
+	margin: 0 auto;
+}
+
 #header {
 	position: relative;
 	float: right;
-	margin-top: 13px;
+	margin-top: 20px;
+	margin-right: 13px;
 }
 
 a {
@@ -10,7 +19,7 @@ a {
 	color: #000;
 	text-decoration: none;
 	line-height: 24px;
-	text-align: right
+	text-align: right;
 	opacity: .75;
 	padding-left: 7px;
 	padding-right: 7px;
@@ -37,4 +46,49 @@ a:hover {
 	font-weight: bold;
 	padding: 8px 13px 8px 13px;
 	border-radius: 2px;
+}
+
+#lcontainer {
+	padding-top: 109px;
+	display: block;
+}
+
+#logo {
+	height: 92px;
+	width: 272px;
+	padding-top: 109px;
+}
+
+#searchbar {
+	margin-top: 10px;
+	width: 575px;
+	height: 32px;
+	border: 1px solid #d9d9d9;
+
+}
+
+#searchbar:hover {
+	border-color: #adadad;
+}
+
+#bcontainer {
+
+}
+
+.bdisplay {
+	clear:both;
+	color: #757575;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	font-weight: bold;
+	margin: 30px 4px;
+	padding: 0 16px;
+	height: 36px;
+	line-height: 27px;
+}
+
+.display:hover {
+	color: black;
+
 }
